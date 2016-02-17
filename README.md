@@ -3,7 +3,7 @@ This is the version of EMBER obtained from server atisha around September 2015 a
 
 ## Installation
 
-You will need PHP, Apache an mySQL installed - please refer to other guides available on the Internet on how to do that. Instructions below are only guidelines and may differ slightly on your system (these refer to Mac OS Yosemite).
+You will need PHP, Apache an MmySQL installed - please refer to other guides available on the Internet on how to do that. Instructions below are only guidelines and may differ slightly on your system (these refer to Mac OS Yosemite).
 
 ### Enable PHP for Apache
 
@@ -42,13 +42,13 @@ You can verify PHP is enabled by creating a phpinfo() page in your DocumentRoot 
 
 Either download the MySQL DMG for Mac OS X or install via package manager, e.g. homebrew.
 
-Start mysql (you may not need sudo on your system):
+Start MySQL server (you may not need sudo on your system):
 
 ```
 # sudo mysql.server start
 ```
 
-Connect to your mySQL console and create database called 'ember'. Create user 'ember' as well and grant all privileges to that user on database 'ember'. Remember to set the password you used for user 'ember' in `html/connect.inc.php` file too.
+Connect to your MySQL console and create database called 'ember'. Create user 'ember' as well and grant all privileges to that user on database 'ember'. Remember to set the password you used for user 'ember' in `html/connect.inc.php` file too.
 
 From command line load the .sql dump file (obtained separately).
 
@@ -57,7 +57,7 @@ mysql -u ember -p -h localhost ember < ember-db-dump-2015-09-25.sql
 ```
 
 ### Connect PHP and MySQL
-You need to ensure PHP and MySQL can communicate with one another. In the case you not have `/var/mysql/mysql.sock` file after starting mysql server, it is necessary to create a symlink to the mysql's sock file (located in `/tmp/mysql.sock` on Mac OS).
+You need to ensure PHP and MySQL can communicate with one another. In the case you not have `/var/mysql/mysql.sock` file after starting MySQL server, it is necessary to create a symlink to the MySQL's sock file (located in `/tmp/mysql.sock` on Mac OS).
 
 ```
 # cd /var 
