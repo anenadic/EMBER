@@ -8,7 +8,8 @@ You will need PHP, Apache an MmySQL installed - please refer to other guides ava
 Instructions below are only guidelines and may differ slightly on your system (these refer to Mac OS Yosemite).
 
 ```
-Make sure you secure your Web server and database with the appropriate measeures - e.g. make sure you use HTTPS as passwords are passed in plaintext.
+Make sure you secure your Web server and database with the appropriate measeures - e.g. make sure you use HTTPS 
+as passwords are passed in plaintext.
 ```
 
 ### Enable PHP for Apache
