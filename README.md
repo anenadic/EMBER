@@ -3,7 +3,7 @@ This is the version of EMBER obtained from server atisha around September 2015 a
 
 ## Installation
 
-You will need PHP, Apache an MmySQL installed - please refer to other guides available on the Internet on how to do that. 
+You will need PHP, Apache an MySQL installed - please refer to other guides available on the Internet on how to do that. 
 
 Instructions below are only guidelines and may differ slightly on your system (these refer to Mac OS Yosemite).
 
