@@ -1,0 +1,7 @@
+Mon Oct 13 13:49:21 DFT 2003 Rob Buis(ETI)
+
+- updated links for Chapter 2 step 1(BLASTp), Chapter 3 info 3.3.1(Blocks), Chapter 6 Info 6.1.1(techniques).
+- removed link on Chapter 3 Info 3.4.1(PRINTS), Chapter 4 step 2(CINEMA), Chapter 6 Info 6.5 (PDB) and
+  Chapter 8 Info 8.3 (SAP).
+- Made Fig4.7 show up with its true dimension.
+- fixed the database connection problems for Fig2 on Chapter 4 Info 4.3 and Fig7 on Chapter 7 Info 7.2.1.

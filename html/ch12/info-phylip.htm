@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p><a name="3"></a><b>PHYLIP</b></p>
+PHYLIP (the PHYLogeny Inference Package, © 1986-1995 by Joseph Felsenstein and
+the University of Washington) is a package of programs for inferring phylogenies
+(evolutionary trees) from multiply aligned sequences. Methods available in the
+package include parsimony, distance matrix, and likelihood methods, including
+bootstrapping and consensus trees. Trees can be displayed using PHYLIP's own
+DRAWGRAM or DRAWTREE programs, or may be generated at other sites (see PHYLODENDRON).
+<p align="left">Further documentation 
+  is available from :</p>
+<ul>
+  <li>original <a href="http://evolution.genetics.washington.edu/phylip.html">PHYLIP</a> 
+    pages, which also has an exhaustive list of other phylogeny programs. </li>
+</ul>
+<p>PHYLIP guide is also available from :</p>
+<ul>
+  <li><a href="http://www.es.embnet.org/%7Epprpc/activs/PHYLIPGuide/">EMBnet</a></li>
+</ul>
+<p><b><a name="more"></a>PHYLIP 
+  - Phylogeny estimation from distance matrix data </b></p>
+<p> A protein sequence alignment 
+  is first used to compute a distance matrix, under different models of amino 
+  acid replacement. The distance between each pair of sequences is used to estimate 
+  the total branch length between the two. The models of amino acid substitution 
+  are: </p>
+<ul>
+  <li>The PAM (Point Accepted 
+    Mutation) matrices of Margaret Dayhoff.</li>
+  <li>The Jones-Taylor-Thornton 
+    model, a recalculation of the PAM<strong> </strong>matrices based on a much 
+    larger dataset.</li>
+  <li>The Kimura model (1983), 
+    an approximation of PAM distance by measuring the fraction of amino acids, 
+    p, that differs between two sequences. Though more rapid than using PAM or 
+    the Jones-Taylor-Thornton 
+    model, it does not take into account which amino acids differ or to 
+    what amino acids they change, so information is lost.</li>
+  <li> The Categories model, 
+    in which the amino acids are divided into groups, and transitions between 
+    them are based on the genetic code with greater resistance to of change between 
+    groups (categories).</li>
+</ul>
+<p>Phylogenies are then estimated 
+  (from distance matrix data) using various models: </p>
+<ul>
+  <li>FITCH uses the &quot;additive 
+    tree model&quot;, according to which distances are calculated from the sums 
+    of branch lengths between species. This approach does not assume an evolutionary 
+    clock. </li>
+  <li>KITSCH uses the &quot;ultrametric&quot; 
+    model, which is essentially the additive tree model with an evolutionary clock 
+    assumed. </li>
+  <li>NEIGHBOR uses both the 
+    Neighbor Joining Method and the UPGMA (average linkage clustering) method. 
+    Neighbor Joining is a distance matrix approach that produces an unrooted tree 
+    without the assumption of a clock, whereas UPGMA does assume a clock. The 
+    methods are very fast and can thus handle large data sets. </li>
+</ul>
+<p>An alternative approach 
+  is to use PROTPARS, which estimates phylogenies from protein sequences using 
+  the parsimony method. </p>
+<center>
+  <form>
+     
+    <input type="button" value="CLOSE" onClick="window.close()" name="button">
+     
+  </form>
+</center>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></body>
+</html>

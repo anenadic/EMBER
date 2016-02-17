@@ -1,0 +1,29 @@
+<HTML><HEAD><TITLE>search sequence</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2719.2200" name=GENERATOR></HEAD>
+<BODY bgcolor="#9dafd1">
+<P><FONT size=+1 face="Arial, Helvetica, sans-serif"><B> Exact Match sequence search </B></FONT> 
+<P><font face="Arial, Helvetica, sans-serif">Paste your peptide into the input box &amp; <B>SCAN</B>: </font>
+<P> 
+<FORM action="../cgi-bin/doEXACT-sprot-remote.pl" method=post>
+  <font face="Arial, Helvetica, sans-serif"> 
+  <P>Input sequence fragment: <BR>
+    <INPUT size=13 name=search>
+    <INPUT type=submit value="SCAN">
+  </font>
+</FORM>
+<hr>
+<P><font face="Arial, Helvetica, sans-serif"><em>or if this fails, try this expasy 
+  service:</em> </font> 
+<FORM name=theForm action=http://us.expasy.org/cgi-bin/scanprosite method=post>
+  <font face="Arial, Helvetica, sans-serif"> 
+  <input name="pat" type="text" value="" size="13">
+  <input type=hidden checked value=sp name=db>
+  <input type=hidden value=tr name=db>
+  <input type=hidden value=tn name=db>
+  <input name=maxhits type=hidden value =100>
+  <input type=submit value="SCAN" name=submit>
+  </font><font face="Arial, Helvetica, sans-serif"> </font> 
+</FORM>
+
+<p>&nbsp;</p></body></HTML>

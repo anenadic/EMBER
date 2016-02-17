@@ -1,0 +1,18 @@
+select
+wireframe off
+backbone on
+
+select *:a, *:c, *:e, *:g
+colour brown
+select *:b, *:d, *:f, *:h
+colour grey
+
+select val6
+colour red
+spacefill 300
+
+select hem
+colour blue
+spacefill 300
+
+zoom 100

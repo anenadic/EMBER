@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<un:pbmstore xmlns:un="http://usablenet.com/namespaces/508as_results">
+  <un:pbmitem>
+    <un:ruleid>SCRIPTwValidNOSCRIPT</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>22594</un:offset1>
+    <un:offset2>22629</un:offset2>
+    <un:linenum>402</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Missing NOSCRIPT: There is no NOSCRIPT following the SCRIPT.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>AREAwEquivalentALT</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>22195</un:offset1>
+    <un:offset2>22277</un:offset2>
+    <un:linenum>397</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>AREAwEquivalentALT</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>22282</un:offset1>
+    <un:offset2>22385</un:offset2>
+    <un:linenum>398</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>AREAwEquivalentALT</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>22390</un:offset1>
+    <un:offset2>22475</un:offset2>
+    <un:linenum>399</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>AREAwEquivalentALT</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>22480</un:offset1>
+    <un:offset2>22577</un:offset2>
+    <un:linenum>400</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>DontRelyOnColorAlone</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>0</un:offset1>
+    <un:offset2>22674</un:offset2>
+    <un:linenum>1</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>ColorsAreVisible</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>0</un:offset1>
+    <un:offset2>22674</un:offset2>
+    <un:linenum>1</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>StyleSheetsNotNecessary</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>863</un:offset1>
+    <un:offset2>22594</un:offset2>
+    <un:linenum>25</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page uses style sheets to present its content. Some
+browsers might be unable to understand style sheets, or the
+provided style sheets may conflict with user-specified style
+information.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>StyleSheetsNotNecessary</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>1091</un:offset1>
+    <un:offset2>1242</un:offset2>
+    <un:linenum>34</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page uses style sheets to present its content. Some
+browsers might be unable to understand style sheets, or the
+provided style sheets may conflict with user-specified style
+information.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>StyleSheetsNotNecessary</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>634</un:offset1>
+    <un:offset2>691</un:offset2>
+    <un:linenum>19</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page uses style sheets to present its content. Some
+browsers might be unable to understand style sheets, or the
+provided style sheets may conflict with user-specified style
+information.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>925</un:offset1>
+    <un:offset2>22174</un:offset2>
+    <un:linenum>26</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>1277</un:offset1>
+    <un:offset2>22148</un:offset2>
+    <un:linenum>38</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>1384</un:offset1>
+    <un:offset2>2269</un:offset2>
+    <un:linenum>41</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>1728</un:offset1>
+    <un:offset2>2222</un:offset2>
+    <un:linenum>48</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>2269</un:offset1>
+    <un:offset2>22078</un:offset2>
+    <un:linenum>63</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>2574</un:offset1>
+    <un:offset2>21368</un:offset2>
+    <un:linenum>69</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>3507</un:offset1>
+    <un:offset2>3800</un:offset2>
+    <un:linenum>92</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>4648</un:offset1>
+    <un:offset2>4916</un:offset2>
+    <un:linenum>109</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>7465</un:offset1>
+    <un:offset2>17947</un:offset2>
+    <un:linenum>166</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>7577</un:offset1>
+    <un:offset2>17389</un:offset2>
+    <un:linenum>169</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains a table that might be used to present data.
+If this is the case, then the table must have headers for
+rows and columns (i.e., strings with TH tags).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TextOnlyEquivPage</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>240</un:offset1>
+    <un:offset2>552</un:offset2>
+    <un:linenum>6</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>AccessibleScripts</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>700</un:offset1>
+    <un:offset2>22666</un:offset2>
+    <un:linenum>21</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The 'BODY' element has an event attribute ('ONLOAD'): check its accessibility.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>SkipRepetitiveLinks</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>700</un:offset1>
+    <un:offset2>22666</un:offset2>
+    <un:linenum>21</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>Check if a textual link is present for skipping navigational
+links that are repeated in all the pages.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>NoFlickeringGIFs</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>700</un:offset1>
+    <un:offset2>22666</un:offset2>
+    <un:linenum>21</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>The page contains GIF images: Are they causing the screen to
+flicker? If so, please modify or remove the images.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>NoFlickeringObjects</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>240</un:offset1>
+    <un:offset2>552</un:offset2>
+    <un:linenum>6</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>NoFlickeringObjects</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>553</un:offset1>
+    <un:offset2>633</un:offset2>
+    <un:linenum>17</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>NoFlickeringObjects</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>22594</un:offset1>
+    <un:offset2>22629</un:offset2>
+    <un:linenum>402</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>ClearLangForSite</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>700</un:offset1>
+    <un:offset2>22666</un:offset2>
+    <un:linenum>21</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>ClarifyNatLangUsage</un:ruleid>
+    <un:fileurl>file:///Ruuds G4/Users/ruud/ETI Projects/EMBER/Site/ch7_info.php</un:fileurl>
+    <un:offset1>700</un:offset1>
+    <un:offset2>22666</un:offset2>
+    <un:linenum>21</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+</un:pbmstore>

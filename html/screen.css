@@ -1,0 +1,132 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-position: left top;
+	background-color: white;
+	background-url: url(Graphics/background_left.jpg);
+	scrollbar-face-color: #5B7896;
+	scrollbar-shadow-color: #000000;
+	scrollbar-highlight-color: #5B7896;
+	scrollbar-3dlight-color: #D3D8E5;
+	scrollbar-darkshadow-color: #39516A;
+	scrollbar-track-color: #BFBFBF;
+	scrollbar-arrow-color: #D3D8E5;
+}
+
+p {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.external_link:link {color: #990000; text-decoration: none;font-weight: normal;}
+a.external_link:visited {color: #990000; text-decoration: none;font-weight: normal;}
+a.external_link:hover {color: #000099; text-decoration: underline;font-weight: normal;} 
+a.external_link:active {color: #000099; text-decoration: underline;font-weight: normal;}
+
+a:link {color: #000099; text-decoration: none;font-weight: normal;}
+a:visited {color: #000099; text-decoration: none;font-weight: normal;}
+a:hover {color: #990000; text-decoration: underline;font-weight: normal;} 
+a:active {color: #990000; text-decoration: underline;font-weight: normal;}
+
+.toc_chapter {
+	font-size: 11px;
+	margin-left: 3px;
+}
+
+.toc_chapter_selected {
+	font-size: 11px;
+	font-weight: bold;
+	color: #990000;
+	margin-left: 3px;
+}
+
+.toc_section {
+	font-size: 10px;
+	color: #000000;
+	margin-left: 3px;
+}
+.toc_section_selected {
+	font-size: 10px;
+	font-weight: bold;
+	color: #000099;
+	margin-left: 2px;
+	text-decoration: none;
+}
+
+a.toc_link {
+	font-size: 10px;
+	color: #000000;
+}
+a.toc_link:link{color: "#000000"; text-decoration: none;}
+a.toc_link:visited{color: "#000000"; text-decoration: none;}
+a.toc_link:hover{color: "#000000"; text-decoration: underline;} 
+a.toc_link:active{color: "#990000"; text-decoration: underline;}
+
+
+a.glos_alph {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+a.glos_alph:link{color: white; text-decoration: none;}
+a.glos_alph:visited{color: white; text-decoration: none;}
+a.glos_alph:hover{color: white; text-decoration: underline;} 
+a.glos_alph:active{color: white; text-decoration: underline;}
+
+
+
+
+a.toc_toplevel {
+	color: #000099;
+	font-weight: bold;
+	font-size: 11px;
+}
+a.toc_toplevel:link{color: "#000099"; text-decoration: none;}
+a.toc_toplevel:visited{color: "#000099"; text-decoration: none;}
+a.toc_toplevel:hover{color: "#000099"; text-decoration: underline;} 
+a.toc_toplevel:active{color: "blue"; text-decoration: underline;}
+
+.dnasequence {  font-family: "Courier New", Courier, mono; font-size: 14px; font-weight: normal; color: #990000}
+.sectionheader {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold}
+.tableheader {  font-family: Verdana, Lucinda, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #990000}
+li {  font-family: Verdana, Lucinda, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px}
+.photocaption {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.formbutton {
+	font-family:  Arial, Helvetica,sans-serif;
+	font-size: 11px;
+	color: #000060;
+	background-color: #D5E1ED;
+	padding: 3px;
+}
+.code {
+	font-family: "Courier New", Courier, mono;
+	font-size: 11px;
+}
+td {
+	font-size: 12px;
+}
+.imgborder {
+	border: 1px solid #000000;
+}
+.small {
+	font-size: 10px;
+}
+.formfield {
+	font-family:  Arial, Helvetica,sans-serif;
+	font-size: 12px;
+	color: #000060;
+	background-color: #D5E1ED;
+}
+.normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.background {
+	margin:3px;
+	background-color: #9dafd1;
+}
+.red {color: "#990000";}

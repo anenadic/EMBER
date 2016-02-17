@@ -1,0 +1,5 @@
+select phe85:b, leu88:b
+colour yellow
+spacefill 200
+
+zoom 250

@@ -1,0 +1,19 @@
+select *:b
+colour white
+spacefill off
+
+
+select *:h
+colour orange
+spacefill off
+
+
+select hem:b
+colour cpk
+spacefill 300
+
+select val6:h
+colour cpk
+spacefill 200
+
+zoom 150
