@@ -42,15 +42,19 @@ You can verify PHP is enabled by creating a phpinfo() page in your DocumentRoot 
 
 Either download the MySQL DMG for Mac OS X or install via package manager, e.g. homebrew.
 
-Start mysql:
+Start mysql (you may not need sudo on your system):
 
-`# sudo mysql.server start` (you may not need sudo on your system)
+```
+# sudo mysql.server start
+```
 
 Connect to your mySQL console and create database called 'ember'. Create user 'ember' as well and grant all privileges to that user on database 'ember'. Remember to set the password you used for user 'ember' in `html/connect.inc.php` file too.
 
 From command line load the .sql dump file (obtained separately).
 
-`mysql -u ember -p -h localhost ember < ember-db-dump-2015-09-25.sql`
+```
+mysql -u ember -p -h localhost ember < ember-db-dump-2015-09-25.sql
+```
 
 ### Connect PHP and MySQL
 You need to ensure PHP and MySQL can communicate with one another. In the case you not have `/var/mysql/mysql.sock` file after starting mysql server, it is necessary to create a symlink to the mysql's sock file (located in `/tmp/mysql.sock` on Mac OS).
