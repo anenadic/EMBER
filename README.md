@@ -16,15 +16,21 @@ First, make a backup of the default Apache configuration.
 
 Now edit the Apache configuration. Feel free to use TextEdit if you are not familiar with vi.
 
-`# sudo vi httpd.conf`
+```
+# sudo vi httpd.conf
+```
 
 Uncomment the following line:
 
-`LoadModule php5_module libexec/apache2/libphp5.so`
+```
+LoadModule php5_module libexec/apache2/libphp5.so
+```
 
 Restart Apache:
 
-`# sudo apachectl restart`
+```
+# sudo apachectl restart
+```
 
 You can verify PHP is enabled by creating a phpinfo() page in your DocumentRoot (from your Apache configuration - the default DocumentRoot for Mac OS X Yosemite is /Library/WebServer/Documents).
 
