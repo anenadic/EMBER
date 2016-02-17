@@ -1,5 +1,5 @@
 # EMBER
-This is the version of EMBER obtained from server atisha around September 2015 and modified to work with PHP 5 (it was running under PHP 3 at that time).
+This is the version of EMBER obtained from server atisha around September 2015 and modified to work with PHP 5 (it was running under PHP 3 at that time) and Chrome.
 
 ## Installation
 
