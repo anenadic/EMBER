@@ -3,7 +3,13 @@ This is the version of EMBER obtained from server atisha around September 2015 a
 
 ## Installation
 
-You will need PHP, Apache an MmySQL installed - please refer to other guides available on the Internet on how to do that. Instructions below are only guidelines and may differ slightly on your system (these refer to Mac OS Yosemite).
+You will need PHP, Apache an MmySQL installed - please refer to other guides available on the Internet on how to do that. 
+
+Instructions below are only guidelines and may differ slightly on your system (these refer to Mac OS Yosemite).
+
+```
+Make sure you secure your Web server and database with the appropriate measeures - e.g. make sure you use HTTPS as passwords are passed in plaintext.
+```
 
 ### Enable PHP for Apache
 
@@ -96,4 +102,6 @@ DocumentRoot "/Library/WebServer/Documents"
 </Directory>
 ```
 
+```
 Note the `Require all granted` directive - the syntax has changed as of Apache 2.4.
+```
