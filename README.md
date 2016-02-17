@@ -34,7 +34,9 @@ Restart Apache:
 
 You can verify PHP is enabled by creating a phpinfo() page in your DocumentRoot (from your Apache configuration - the default DocumentRoot for Mac OS X Yosemite is /Library/WebServer/Documents).
 
-`# echo '<?php phpinfo();' > /Library/WebServer/Documents/phpinfo.php`
+```
+# echo '<?php phpinfo();' > /Library/WebServer/Documents/phpinfo.php
+```
 
 ### MySQL
 
