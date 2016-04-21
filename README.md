@@ -57,6 +57,13 @@ Start MySQL server (you may not need sudo on your system):
 
 Connect to your MySQL console and create database called 'ember'. Create user 'ember' as well and grant all privileges to that user on database 'ember'. Remember to set the password you used for user 'ember' in `html/connect.inc.php` file too.
 
+```
+$mysql -u root -p
+mysql> create database ember;
+mysql> CREATE USER 'ember'@'localhost' IDENTIFIED BY 'your_super_secret_password';
+mysql> GRANT ALL PRIVILEGES ON ember.* TO 'ember'@'localhost';
+```
+
 From command line load the .sql dump file (obtained separately).
 
 ```
