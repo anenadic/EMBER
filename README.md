@@ -14,14 +14,14 @@ as passwords are passed in plaintext.
 
 ### Enable PHP for Apache
 
-First, make a backup of the default Apache configuration.
+First, make a backup of the default Apache configuration (if youa re not sure what you are doing).
 
 ```
 # cd /etc/apache2/
 # sudo cp httpd.conf httpd.conf.bak
 ```
 
-Now edit the Apache configuration. Feel free to use TextEdit if you are not familiar with vi.
+Now edit the Apache configuration.
 
 ```
 # sudo vi httpd.conf
