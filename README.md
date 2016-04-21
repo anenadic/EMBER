@@ -87,8 +87,8 @@ Sometimes it is the other way around - you may have `/var/mysql/mysql.sock` and 
 You may need to configure DocumentRoot in your Apache configuration file (`/etc/apache2/httpd.conf`) to look something like the following:
 
 ```
-DocumentRoot "/Library/WebServer/Documents"
-<Directory "/Library/WebServer/Documents">
+DocumentRoot "/home/ember/EMBER"
+<Directory "/home/ember/EMBER">
     # The Options directive is both complicated and important.  Please see
     # http://httpd.apache.org/docs/2.4/mod/core.html#options
     # for more information.
