@@ -73,8 +73,8 @@ include "instr_header.php";
 to the <em>entries</em> of matches you believe to be significant, and examine the PROSITE data and documentation files (PDOC). </p>
 <p><i>NOTE: PDOC files point to PROSITE annotation, while QDOCs give access to
   preliminary or incomplete annotation not yet accessible from PROSITE. </i></p>
-<p>ii) Alternatively, paste your ID code (or full sequence) into the appropriate
-  <?php $Url_id="36"; $Link_naam="Pfam"; include ('get_link.php'); ?> <em>input box</em>. Examine the match details and their statistics - open
+<p>ii) Alternatively, paste your ID code (or full sequence) into the appropriate <a href="http://pfam.xfam.org/" target="_blank">Pfam</a>
+ <em>input box</em>. Examine the match details and their statistics - open
   the links from the tables (or click on the graphics) to
   gain access to annotation, alignments, trees, cross-references to other databases, <i>etc.</i></p>
 
