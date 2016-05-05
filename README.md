@@ -55,7 +55,9 @@ Start MySQL server (you may not need sudo on your system):
 # sudo mysql.server start
 ```
 
-Connect to your MySQL console and create database called 'ember'. Create user 'ember' as well and grant all privileges to that user on database 'ember'. Remember to set the password you used for user 'ember' in `html/connect.inc.php` file too.
+Connect to your MySQL console and create database called 'ember'. Create user 'ember' as well and grant all privileges to that user on database 'ember'. 
+
+Copy `html/connect.inc.php.example` into `html/connect.inc.php` and set the password you used for database user 'ember' in `html/connect.inc.php` config file.
 
 ```
 $mysql -u root -p
