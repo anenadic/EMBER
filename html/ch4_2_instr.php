@@ -69,11 +69,11 @@ include ('instr_header.php');
 <p>i) Choose a set of input <a href="ch4/sequencespopup.htm" target="left">sequences</a> (<em>e.g</em>.,
  if you began with fragment A, choose alignment A).</p>
 <p>ii) Load your sequences into an alignment editor, selecting different options
- from the table below. </p>
-<p>iii) Use the selected editor to align the sequences, and compare your results
- with those from ALIGN and/or ProDom. Save your alignment for future
+ from the table below, or using an alignment tool of your choice. </p>
+<p>iii) Use the selected software to align the sequences, and save your alignment for future
  reference. Features you should investigate include the use of different colour
- schemes, dotplots, <em>etc</em>. </p>
+ schemes, areas of conservation, dotplots, <em>etc</em>. Compare your results
+ with those you may have retrieved from resources like ALIGN, ProDom, <em>etc</em>.</p>
 <table border="1" cellpadding="1" cellspacing="3" >
  <tr>
   <td></td>
@@ -118,9 +118,8 @@ include ('instr_header.php');
   help you to align sequences more efficiently? Is any one scheme more intuitive 
   than the others? (<a href="ch4_info_3-1.php">HINT</a>)</em></li>
  <li><em>For editors that have the option 
-  of generating dot plots, what is their use? (<a href="ch4_info_3-2.php">HINT</a>)</em></li>
- <li><em>How does your alignment compare 
-  with those from ALIGN, ProtFam and/or ProDom? Is it exactly the same? If not, 
+  of generating dotplots, what is their use? (<a href="ch4_info_3-2.php">HINT</a>)</em></li>
+ <li><em>If you managed to retrieve an alignment from elsewhere, how does your alignment compare? Is it the same? If not, 
   what are the differences, and why might this be so.</em></li>
 </ul>
 

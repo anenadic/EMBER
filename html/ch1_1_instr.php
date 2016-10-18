@@ -73,8 +73,9 @@ include "instr_header.php";
  <li>A) <span class="dnasequence">gaggagaagtctgccgttactgccctgtgg</span></li>
  <li>B) <span class="dnasequence">tgaagagtggtacttcggaaagatcagtag</span></li>
  <li> C) <span class="dnasequence">ccgtactacaactacgctggtgcattcaag</span></li>
- <li> D) <span class="dnasequence">ttgacgtgagcgcgaaggtcggcttcgggc</span></li>
- <li> E) <span class="dnasequence">tgggatatttcagatcaatagccgctactg</span><br>
+ <li> D) <span class="dnasequence">tttaccggtagcatttacttggtgcttggt</span></li>
+ <li> E) <span class="dnasequence">ttgacgtgagcgcgaaggtcggcttcgggc</span></li>
+ <li> F) <span class="dnasequence">tgggatatttcagatcaatagccgctactg</span><br>
  </li>
 </ul>
 <p>ii) Retrieve your fragment and save it before proceeding to Step 2 - you may paste it into your

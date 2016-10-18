@@ -69,19 +69,17 @@ include ('instr_header.php');
  motifs, and will compare the results of database searching with manually- and
  automatically-generated patterns.
 
-<p>i) From one of your alignments, select and save a conserved, un-gapped motif
- using an alignment editor. Design your own <a href="ch4/regexppopup.htm" target="new">regular
+<p>i) From your alignment, choose a conserved, un-gapped motif (make a note of it for future reference). Design your own <a href="ch4/regexppopup.htm" target="new">regular
  expression</a> and use it for database searching with
   <?php $Url_id="22"; $Link_naam="PATTINPROT"; include ('get_link.php'); ?>. </p>
 
 
 <p ><em>Reflections...</em></p>
 <ul>
- <li><em>Does your regex resemble any of those in PROSITE?</em></li>
- <li><em>Does your motif correspond to any of those included in Blocks and/or PRINTS? </em></li>
+ <li><em>Does your motif correspond to any of those included in PROSITE, Blocks and/or PRINTS? </em></li>
  <li><em>How and why might these differ?</em></li>
  <li><em>Did the search using your own regular expression yield sensible results?</em></li>
- <li><em>In general, are there significant differences between manually- and automatically-generated regexs? If so, what are the main differences?</em></li>
+ <li><em>Generally, manually- and automatically-generated regexs tend to differ. What are likely to be the main differences?</em></li>
 </ul>
 <table width='100%' border=0 cellspacing=0 cellpadding=6>
 	<tr><td> 

@@ -104,7 +104,7 @@ before prediction</em><b> </b>option
  <li><em>From examination of the different 
   predictions, how accurate do you think they are, and why?</em></li>
  <li><em>Are there advantages of machine-learning 
-  algorithms over statistically-based ones?If so, what are they? (<a href="ch5_info_3-1.php">HINT</a>) 
+  algorithms over statistically-based ones? If so, what are they? (<a href="ch5_info_3-1.php">HINT</a>) 
   </em></li>
  <li><em>Is there a consensus between 
   the results? </em></li>

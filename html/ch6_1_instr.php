@@ -71,9 +71,9 @@ include "instr_header.php";
 <a target=new href="http://www.ebi.ac.uk/Tools/sss/ncbiblast/">EBI</a>, or
  <?php $Url_id="18"; $Link_naam="NCBI"; include ('get_link.php'); ?>, selecting Structure (Protein Structure Sequences) or PDB as the database,
  respectively. Choose the most significant hit and note its
- PDB ID code.<em> </em>If a structure exists, it should be the first hit.</p>
-<p>ii) Alternatively, from your sequence's
-  <a target=new href="http://www.uniprot.org">entry</a>, you could use the <em>Advanced</em> option from the
+ PDB ID code.<em> </em>If a structure exists, it is likely to be the first hit (but be careful - the top hit may be the closest template rather than a known structure).</p>
+<p>ii) Alternatively, from your sequence's UniProtKB 
+  <a target=new href="http://www.uniprot.org">entry</a> (if it has one), you could use the <em>Advanced</em> option from the
   BLAST tab, selecting the
  <em>with 3D structure (PDB)</em> option. </p>
 <p><em>Reflections...</em> 

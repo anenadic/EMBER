@@ -74,7 +74,7 @@ include "instr_header.php";
  from the main PDB directory. </em></p>
 <p>ii) To 
  download the raw PDB file, return to the PDB entry and select the <em>Download 
- Structures</em> tab. Choose the uncompressed option. View the file in a text editor to get a feel for how the annotation 
+ Files</em> tab. Choose the uncompressed option. View the file in a text editor to get a feel for how the annotation 
  fields and atomic coordinates are encoded. </p>
 <p>iii) There 
  are several PDB structure viewers and molecular visualisation packages available 

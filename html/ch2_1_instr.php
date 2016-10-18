@@ -85,15 +85,14 @@ NCBI BLAST</a>. Paste part of the sequence <i>(~60 residues)</i>
              <ul>
               <li><i>Does your protein belong to an extended family,
                 or is the family quite small? </i></li>
-              <li><i>Were there any borderline results that were
-                difficult to diagnose? </i></li>
+              <li><i>Were any results difficult to diagnose, perhaps because they had poor scores or e-values? </i></li>
               <li><i>Did you see any differences upon changing
                 the scoring matrix?</i></li>
               <li><i>How did the e-value help you decide which
                 hits are important? (<a href="ch2_info_5.php">HINT</a>)</i></li>
-              <li><i>Did you notice any differences between BLASTp
-                and WU-BLAST results? </i></li>
-              <li><i>If yes, why do you think this happens? </i></li>
+              <li><i>Were there differences between the BLAST results from NCBI
+                and EBI? </i></li>
+              <li><i>If yes, why do you think this might be so? </i></li>
              </ul>
              <table width='100%' border=0 cellspacing=0 cellpadding=6>
 	<tr><td> 

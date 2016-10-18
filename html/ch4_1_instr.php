@@ -66,7 +66,7 @@ include ('instr_header.php');
         
 			  
 		<p>From the last Chapter, you should have an idea of which fingerprint or fingerprints
-		 are matched by your sequence, and you should have noted down their PRINTS
+		 are matched by your sequence (if any), and you should have noted down their PRINTS
 		 ID codes.</p>
     <p>i) To view an alignment of your family, supply the PRINTS ID code
      to the

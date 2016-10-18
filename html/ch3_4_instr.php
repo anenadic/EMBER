@@ -73,27 +73,25 @@ include "instr_header.php";
   draw a diagram illustrating the locations of each of your database matches.
   To help with this, we will examine InterPro, a resource that integrates information
   from several databases. </p>
-<p >i) Perform a
-<?php $Url_id="42"; $Link_naam="simple search"; include ('get_link.php'); ?> using either a PRINTS ID code or simply a keyword that describes
-   your query sequence. Follow the links and examine the annotation. </p>
-<p >ii) Next perform a <?php $Url_id="43"; $Link_naam="sequence search"; include ('get_link.php'); ?>,
- which will give you a graphical representation of matches within the different
+<p >i) If your sequence has a database identifier, you may perform a rapid 
+<?php $Url_id="42"; $Link_naam="simple search"; include ('get_link.php'); ?> by supplying either a UniProtKB ID or accession number, or simply a keyword that describes
+   your query sequence. Explore the links and examine the graphical representations and annotations. </p>
+<p >ii) If your sequence does not have a database identifier, you may perform a <?php $Url_id="43"; $Link_naam="sequence search"; include ('get_link.php'); ?>.
+This is much slower, but should eventually return the same kind of graphical representation of matches it finds in the different
  databases. </p>
 <p><i>Reflections...</i></p>
 <p><i>InterPro: </i></p>
 <ul>
  <li><i>What is the value
-    of InterPro, if you can access all the other databases directly? (<a href="ch3_info_5.php">HINT</a>)</i></li>
- <li><i>In the database
-    entry, are any false matches reported? How &quot;good&quot; do you think the
-    entry is?</i></li>
+    of InterPro, if you can access all of its partner databases directly? (<a href="ch3_info_5.php">HINT</a>)</i></li>
+ <li><i>How &quot;good&quot; do you think the search results are? What measure of confidence do you have that the results are reliable?</i></li>
 </ul>
 <p><i>Overall:</i></p>
 <ul>
  <li><i>How do the results
     of the different protein family databases compare? </i></li>
  <li><i>Is there a consensus
-    between them and what are the differences?</i></li>
+    between them? What are the differences, if any?</i></li>
  <li><i> Is there correspondence
     with the BLAST result?</i></li>
 </ul>
