@@ -66,11 +66,18 @@ mysql> CREATE USER 'ember'@'localhost' IDENTIFIED BY 'your_super_secret_password
 mysql> GRANT ALL PRIVILEGES ON ember.* TO 'ember'@'localhost';
 ```
 
-From command line load the .sql dump file (obtained separately).
+From command line load the EMBER .sql dump file (obtained separately).
 
 ```
-mysql -u ember -p -h localhost ember < ember-db-dump-2015-09-25.sql
+$mysql -u ember -p -h localhost ember < ember-db-dump.sql
+Enter password: 
 ```
+
+If you need to do a MySQL backup of the 'ember' database, you can do something like:
+```
+$mysqldump -u ember -p -h localhost ember  > ember-db-dump.sql
+Enter password: 
+````
 
 ### Connect PHP and MySQL
 You need to ensure PHP and MySQL can communicate with one another. In the case you not have `/var/mysql/mysql.sock` file after starting MySQL server, it is necessary to create a symlink to the MySQL's sock file (located in `/tmp/mysql.sock` on Mac OS).
